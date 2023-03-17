@@ -97,7 +97,7 @@ h1{
         width: 97%;
         }
       }
-
+     /*mobile view*/
 
       @media (max-width: 767px) {
         .box1, .box2, .box3 {
