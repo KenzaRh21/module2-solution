@@ -1,0 +1,115 @@
+h1{
+  color: #2C3333 
+}
+
+.box1 {
+    background-color: #BFDCE5;
+    border: 1px solid black;
+    position: relative;
+    margin: 1%;
+    right: 4px;
+  }
+  .box2 {
+    background-color:#BFDCE5;
+    border: 1px solid black;
+    position: relative;
+    margin: 1%;
+    right: 4px;
+  }
+  .box3 {
+    background-color:#BFDCE5;
+    border: 1px solid black;
+    position: relative;
+    margin: 1%;
+    right: 4px;
+  }
+  p {
+      background-color:#BFDCE5;
+      color: black;
+      padding: 30px 10px 5px;
+  
+    }
+    .chicken {
+      border: 1px solid black;
+      position: absolute;
+      top: -19px;
+      right: 0px;
+      text-align: center;
+      background-color:#AD7BE9;
+      width: 25%;
+      height: 30px;
+      color: #3E54AC;
+    }
+    .beef {
+      border: 1px solid black;
+      position: absolute;
+      top: -19px;
+      right: 0px;
+      text-align: center;
+      background-color: #AD7BE9;
+      width: 25%;
+      height: 30px;
+      color:#3E54AC;
+     }
+    .sushi {
+      border: 1px solid black;
+      position: absolute;
+      top:-19px;
+      right: 0px;
+      text-align: center;
+      background-color:#AD7BE9;
+      width: 25%;
+      height: 31px;
+      color: #3E54AC;
+  
+    }
+  
+
+  
+    /*desktop view*/
+     @media (min-width: 992px) {
+        .box1, .box2, .box3 {
+          float: left;
+        }
+        .box1 {
+          width: 30%;}
+      
+        .box2 {
+          width: 30%;}
+        
+        .box3 {
+          width: 30%;}
+        
+      }
+
+      /* Tablet view*/
+      @media (min-width: 768px) and (max-width: 991px) {
+        .box1, .box2, .box3 {
+          float: left;
+        }
+       .box1 {
+        width: 47%;
+        }
+        .box2 {
+        width: 47%;
+        }
+        .box3 {
+        width: 97%;
+        }
+      }
+
+
+      @media (max-width: 767px) {
+        .box1, .box2, .box3 {
+          float: left;
+        }
+        .box1 {
+          width: 100%;
+        }
+        .box2 {
+          width: 100%;
+        }
+        .box3 {
+          width: 100%;
+        }
+      }
